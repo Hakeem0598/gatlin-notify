@@ -1,0 +1,7 @@
+export enum ActionType {
+    FETCH_ME_START = 'FETCH_ME_START',
+    FETCH_ME_SUCCESS = 'FETCH_ME_SUCCESS',
+    FETCH_ME_FAILURE = 'FETCH_ME_FAILURE',
+    LOGOUT = 'LOGOUT'
+}
+

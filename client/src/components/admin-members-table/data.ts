@@ -1,0 +1,1 @@
+export const tableHeadings = ['#', 'Discord', 'License key', 'Stripe subscription', 'Stripe customer', 'Status', 'Role', 'Next payment'];

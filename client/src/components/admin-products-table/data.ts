@@ -1,0 +1,1 @@
+export const tableHeadings = ['#', 'Product', 'Product ID', 'Price ID', 'Price', 'Status', 'Created At'];

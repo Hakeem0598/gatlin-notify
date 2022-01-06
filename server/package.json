@@ -1,0 +1,45 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:ts": "tsc -w",
+    "start:watch": "wait-on build/app.js && nodemon build/app.js",
+    "start": "concurrently npm:start:*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/express-session": "^1.17.4",
+    "@types/mongoose": "^5.11.97",
+    "@types/morgan": "^1.9.3",
+    "@types/nodemailer": "^6.4.4",
+    "@types/passport": "^1.0.7",
+    "@types/passport-discord": "^0.1.5",
+    "@types/passport-oauth2": "^1.4.11",
+    "connect-mongo": "^4.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "helmet": "^4.6.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.0.13",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.7.1",
+    "passport": "^0.5.0",
+    "passport-discord": "^0.1.4",
+    "passport-oauth2": "^1.6.1",
+    "stripe": "^8.189.0",
+    "wait-on": "^6.0.0",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "concurrently": "^6.4.0",
+    "nodemon": "^2.0.15"
+  }
+}

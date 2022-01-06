@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@variants hover {
+  .grow {
+    transition: all 0.3s cubic-bezier(0, 0, 0.5, 1);
+    transform: scale3d(1.01, 1.01, 1.01);
+    box-shadow: 2px 4px 16px rgb(0 0 0 / 16%);
+  }
+}
+
+@layer utilities {
+  @variants responsive {
+    .col-count-0 {
+      column-count: 0;
+    }
+    .col-count-1 {
+      column-count: 1;
+    }
+    .col-count-2 {
+      column-count: 2;
+    }
+    .col-count-3 {
+      column-count: 3;
+    }
+  }
+}
